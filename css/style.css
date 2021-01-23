@@ -1,0 +1,447 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+
+/* =============================
+         common css
+================================*/
+
+html {
+    font-size:62.5% ;
+}
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+    font-size: 1.6rem;
+}
+.sec-title {
+    text-align: center;
+}
+h2,
+h3,
+h4{
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #dfe8ed;
+    text-transform: uppercase;
+}
+
+.sec-content {
+   width: 60%;
+   margin-left: 20%;
+}
+.sec-title h2{
+    font-weight: bold;
+    font-size: 4rem;
+    color: #3c4761
+}
+.bottom-style {
+    position: relative;
+    width: 8rem;
+    height: .2rem;
+    background: #13927d;
+    margin: auto;
+    top: .5rem;
+}
+.sec-content{
+    color: #3c4761;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ============================
+             header section
+===============================*/
+.header {
+    background:linear-gradient( rgba(135, 80, 156, 1), rgba(135, 80, 156, 1) );
+    background-attachment: fixed;
+    background-position-Y: center;
+    overflow: hidden;
+    padding: 5rem 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+/* sticky menu */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #87509c;
+    padding: 0 18rem;
+}
+nav {
+ transition: .8s;  
+}
+.menu-area {
+    float: right;
+}
+.menu-area ul li {
+   display: inline-block;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: .5rem 1.5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    transition: .5s;
+    border-radius: .5rem;
+    margin: 0 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #643a79;
+    color: #fff;
+}
+.header-content {
+    padding: 12rem 2.5rem 5rem 2.5rem;
+}
+.header-content h2 {
+    font-size: 4.2rem;
+    color: #f7f3ea;
+}
+.header-content a{
+    background: #eb7d4b;
+    color: #fff;
+    display: inline-block;
+    border-radius: 1rem;
+    padding: 2rem 8.5rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+/* ==============================
+             provide section
+=====================================*/
+.we-provide {
+    background:linear-gradient( rgba(23, 194, 164, 1), rgba(154, 145, 235, 1) );
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.we-provide .sec-title h2,
+.we-provide .sec-content{
+    color: #fff;
+}
+
+.provide-box {
+    text-align: center;
+}
+.provide-box-img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.service-img {
+    height: 12rem;
+}
+.provide-box {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.provide-box h4{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+/* ==============================
+          team-member section
+=================================*/
+.team {
+    background: #e7f1f8;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+.team .bottom-style {
+    background: #c8d9e5;
+}
+.team-member {
+    text-align: center;
+}
+
+ .team-member img{
+    object-fit: cover;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+}
+.team-member h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #27283d;
+    text-transform: uppercase;
+}
+.team-member a{
+    color: #30bae7;
+}
+.team-member p{
+    padding-top: 2rem;    
+    padding-bottom: 2rem;  
+}
+.social ul{
+    display: flex;
+    justify-content: center;
+    user-select: none;  
+}
+.social ul li{
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #bdd1df;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3.2rem;
+    margin: 0 .5rem;
+    transition: .5s;
+}
+.social ul li:hover{
+    background: rgba(0, 0, 0, 1);
+}
+.social ul li a{
+    color: #fff;
+}
+.social ul li a i{
+    transition: .5s;
+}
+.social ul li a:hover i{
+    transform: rotate(360deg);
+}
+
+/* ==============================
+          skill section
+=================================*/
+.skill {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    text-align: center;
+}
+
+svg.html-css circle {
+    fill: rgba(0,0,0,0);
+    stroke: #d74680;
+
+  }
+svg.graphics-design circle {
+    fill: rgba(0,0,0,0);
+    stroke: #15c7a8;
+
+  }
+svg.ui-ux circle {
+    fill: rgba(0,0,0,0);
+    stroke: #eb7d4b;
+  }
+.skill-box {
+    margin-top: 7rem;
+}
+.skill-box h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+/* ==============================
+          portfolio section
+=================================*/
+.portfolio {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background: #ffdd99;
+}
+.portfolio .bottom-style{
+    background: #e5c37f;
+}
+.port-nav ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.port-nav ul li{
+    padding: .5rem 1.8rem;
+    background:rgba(0, 0, 0, .2);
+    color: #000;
+    margin-right:1.5rem;
+    margin-bottom: 0.5rem;
+    transition: .5s;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.port-nav ul li:hover {
+    background: #fff;
+}
+.desktop-box {
+    padding-top: 3.3rem;
+    padding-bottom: 3.3rem;
+    text-align: center;
+}
+.desktop-box span {
+    padding-top: 3rem;
+    display: inline-block;
+}
+.button {
+    padding-top: 7rem;
+}
+.button a{
+    background: #17c2a4;
+    padding: 2rem 4rem;
+    display: inline-block;
+    font-size: 1.8rem;
+    border-radius: .7rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* ==============================
+          people say section
+=================================*/
+.tesitmonial {
+    background:linear-gradient( rgba(233, 2, 98, 0.9), rgba(82, 7, 37, 0.9) );
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    position: relative;
+    color: #fff;
+}
+
+.tesitmonial .bottom-style{
+    background: #b73c6d;
+}
+.tesitmonial .sec-title h2,
+.tesitmonial .sec-title span{
+    color: #fff;
+}
+.tesitmonial .client-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.client-review  p {
+    font-style: italic;
+    padding-bottom: 2rem;
+    font-size: 2.1rem;
+    color: #dfdfdf;
+}
+.client-review h4 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.client-review  span {
+    color: #ffdd99;
+}
+.clien-photo {
+    width: 10rem;
+    float: left;
+}
+.client-review {
+    width: 35rem;
+    float: left;
+    margin-left: 2rem;
+}
+.tesitmonial .testi {
+    padding: 7rem 4rem ;
+}
+
+/* ===========================
+            contact
+=====================================*/
+.contact {
+    background: #3c5499;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+.contact .sec-title h2,
+.contact .sec-title span{
+    color: #fff;
+}
+.contact .sec-title .bottom-style{
+    background: #273a71;
+}
+.parent-form {
+    padding: 3.5rem 10rem;
+  
+}
+ input,textarea{
+    width: 100%;
+    padding: 1rem 2rem;
+    background: #273a71;
+    color: #fff;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+}
+
+ ::placeholder{
+    color: #fff;
+    font-size: 1.8rem;
+}
+ input[type="submit"]{
+    width: 23%;
+    margin:3rem auto;
+    background:#30bae7;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+ 
+}
+
+/* ===========================
+            footer section
+=====================================*/
+footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: #344b8e;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul li a {
+    color: #fff;
+    transition: .5s;
+}
+footer ul li a:hover {
+    color: #30bae7;
+}

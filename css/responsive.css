@@ -1,0 +1,209 @@
+@media only screen and (max-width: 1024px){
+    html {
+        font-size: 55.5%;
+    }
+    .clien-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-top: 2rem;
+    }
+}
+@media only screen and (max-width: 991px){
+    html {
+        font-size: 45.5%;
+    }
+    .provide-box-img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .provide-box {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .we-provide {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .provide-box h4 {
+        margin-top: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+    .skill-box {
+        margin-top: 5rem;
+    }
+    .parent-form {
+        padding:0rem 0rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .header-content h2 {
+        font-size: 3.2rem;
+    }
+    .sticky {
+        padding: 0px 11rem;
+    }
+    .team {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .skill {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .portfolio {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .tesitmonial {
+        padding-bottom: 8rem;
+        padding-top: 8rem;
+    }
+    .team-member img {
+        width: 12rem;
+        height: 12rem;
+    }
+    svg.radial-progress {
+        max-width: 150px;
+    }
+    svg.radial-progress circle {
+        stroke-width: 6;
+    }
+}
+@media only screen and (max-width: 480px){
+    html {
+        font-size: 45.5%;
+    }
+    .sticky {
+        padding: 1rem 0rem;
+    }
+    .navbar-expand-sm img {
+        width: 50%;
+        padding-top: .1rem;
+    }
+    .header-content {
+        padding: 5rem 2.5rem 5rem 2.5rem;
+    }
+    .header-content h2 {
+        font-size: 2.2rem;
+    }
+    .header-content a {
+        padding: 2rem 6.5rem;
+    }
+    .we-provide {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .sec-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    .team-member img {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .team {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .skill {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .portfolio {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .button {
+        padding-top: 4rem;
+    }
+    .tesitmonial {
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+    .tesitmonial .client-img {
+        width: 12rem;
+        height: 12rem;
+    }
+    .tesitmonial .testi {
+        padding: 3rem 1rem;
+    }
+    .contact {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .sec-content {
+        font-size: 1.4rem;
+    }
+    .sec-title h2 {
+        font-size: 3rem;
+    }
+    footer {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 376px){
+    .header {
+        padding: 2rem 0;
+    }
+    .header-content h2 {
+        font-size: 1.8rem;
+    }
+    .header-content a {
+        padding: 1rem 2.5rem;
+        border-radius: 0;
+        margin-top: 2rem;
+    }
+    .we-provide {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .service-img {
+        height: 10rem;
+    }
+    .provide-box-img {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .desktop-box {
+        padding-top: 2.3rem;
+        padding-bottom: 2.3rem;
+    }
+    .client-review  {
+        text-align: center;
+    }
+    .client-review p {
+        padding: 0 2rem 1rem 2rem;
+    }
+    .sticky {
+        padding-top: 2rem;
+    }
+    .navbar-toggler-icon {
+        width: 4.5em;
+        height: 2.5em;
+    }
+    .button  {
+        padding-top: 1rem;
+    }
+    .button a {
+        padding: 1.5rem 2rem;
+    }
+    input[type="submit"] {
+        width: 45%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    footer ul {
+        display: block;
+    }
+    footer ul li{
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
